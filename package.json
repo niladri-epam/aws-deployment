@@ -1,0 +1,28 @@
+{
+  "name": "aws-deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niladri-epam/aws-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niladri-epam/aws-deployment/issues"
+  },
+  "homepage": "https://github.com/niladri-epam/aws-deployment#readme",
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.204.0",
+    "@aws-cdk/aws-iam": "^1.204.0",
+    "@aws-cdk/aws-s3": "^1.204.0",
+    "@aws-cdk/aws-s3-deployment": "^1.204.0",
+    "@aws-cdk/core": "^1.204.0",
+    "aws-cdk": "^2.99.1"
+  }
+}
